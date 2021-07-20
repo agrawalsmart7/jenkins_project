@@ -2,7 +2,7 @@
   <h2>Hello this code is vulnerable to XSS</h2>
   
   <form action="" method="GET">
-    <input type="text" name="xss" value="<?php echo $_GET['xss'];?>">
+    <input type="text" name="xss" value="<?php echo $aaa ;?>">
   
   </html>
 
@@ -10,7 +10,7 @@
 
 <?php
   
-  $newvar = $_GET["xss"];
+  $newvar = $aaaa;
 
 echo $newvar;
 
