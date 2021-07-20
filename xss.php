@@ -10,8 +10,8 @@
 
 <?php
   
-  $newvar = $_GET["XSS"];
+  $newvar = $_GET["xss"];
 
-echo "$newvar";
+echo $newvar;
 
 ?>
