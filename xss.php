@@ -12,6 +12,6 @@
   
   $newvar = htmlspecialchars($_GET["testing"]);
 
-echo $newvar;
+echo htmlspecialchars($newvar);
 
 ?>
