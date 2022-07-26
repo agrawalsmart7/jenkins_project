@@ -10,7 +10,7 @@
 
 <?php
   
-  $newvar = htmlentities($_GET["testing"]);
+  $newvar = htmlspecialchars($_GET["testing"]);
 
 echo $newvar;
 
