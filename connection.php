@@ -59,10 +59,10 @@ class cis3integration_lib
         }
 
         //AWS account setting
-        // define('AWS_ACCESS_KEY',"AKIAIHKYXXFSOPHIVPXR");
-        // define('AWS_SECRET_KEY',"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");
-        define('AWS_ACCESS_KEY',"AKIAIU5YXXXCBIXXFHXA");
-        define('AWS_SECRET_KEY',"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");
+        // define('AWS_ACCESS_KEY',"");
+        // define('AWS_SECRET_KEY',"");
+        define('AWS_ACCESS_KEY',"");
+        define('AWS_SECRET_KEY',"");
 
         define('BUCKET_NAME',$this->bucket_name);//The bucket name you want to use for your project
         define('AWS_URL','http://'.$this->bucket_name.'.s3.amazonaws.com/');
