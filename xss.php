@@ -12,8 +12,8 @@
 
 <?php
 
-$username = "Utkarsh_testing"
-$password = "Testing_Purpose_88_**"
+$username = "Utkarsh_testing";
+$password = "Testing_Purpose_88_**";
   
   $newvar = $_GET["testing"];
 
