@@ -59,8 +59,8 @@ class cis3integration_lib
         }
 
         //AWS account setting
-        // define('AWS_ACCESS_KEY',"AKIA6CAAAAAAAAFKF4NV");
-        // define('AWS_SECRET_KEY',"MiukCR5jtwUtAAAAAAAAAAAAAAAAAAAAA4XdJ8CI");
+        // define('AWS_ACCESS_KEY',"AKIA6CBBCJ4LXVFKF4NV");
+        // define('AWS_SECRET_KEY',"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");
         define('AWS_ACCESS_KEY',"");
         define('AWS_SECRET_KEY',"");
 
